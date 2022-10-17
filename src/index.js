@@ -20,7 +20,7 @@ server.use(auth);
 
 server.use(middlewares);
 server.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://angular-llqv.vercel.app')
+    res.header('Access-Control-Allow-Origin', 'https://angular-red-tau.vercel.app')
     res.header('Access-Control-Allow-Headers', '*')
     next()
 })
