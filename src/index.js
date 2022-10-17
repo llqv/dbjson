@@ -19,11 +19,11 @@ server.use(rules);
 server.use(auth);
 
 server.use(middlewares);
-server.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://angular-red-tau.vercel.app')
-    res.header('Access-Control-Allow-Headers', '*')
-    next()
-})
+// server.use((req, res, next) => {
+//     res.header('Access-Control-Allow-Origin', 'https://angular-red-tau.vercel.app')
+//     res.header('Access-Control-Allow-Headers', '*')
+//     next()
+// })
 server.use((req, res, next) => {
     if (req.method === "POST") {
         req.body.createAt = Date.now();
