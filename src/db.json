@@ -17,6 +17,20 @@
       "name": "Áo du lịch"
     }
   ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password":"admin123"
+    },
+        {
+      "id": 2,
+      "username": "admin1",
+      "email": "admin1@gmail.com",
+      "password":"admin123"
+    }
+  ],
   "size": [
     {
       "id": 1,
